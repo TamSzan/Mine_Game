@@ -23,6 +23,7 @@ namespace Mine_Game
         int sizeX = 10;
         int sizeY = 10;
         int mines = 10;
+        int currMines;
         Button[,] table;
                 
         public MainWindow()
@@ -33,6 +34,7 @@ namespace Mine_Game
 
         private void CreateTable()
         {
+            currMines = mines;
             table = new Button[sizeY + 2, sizeX + 2];
             gr.ColumnDefinitions.Clear();
             gr.RowDefinitions.Clear();
@@ -75,8 +77,8 @@ namespace Mine_Game
                 _temp.Content = _temp.Tag;
                 _temp.Click -= Button_Click;
                 _temp.MouseRightButtonDown -= RightButton_Down;
-                mines--;
-                if (mines == 0)
+                currMines--;
+                if (currMines == 0)
                 {
                     MessageBox.Show("You Win!!!");
                     CreateTable();
@@ -215,7 +217,7 @@ namespace Mine_Game
         {
             sizeX = Convert.ToInt32(sliderX.Value);
             sizeY = Convert.ToInt32(sliderY.Value);
-            mines = Convert.ToInt32(sliderM.Value);
+            mines = Convert.ToInt32(sliderM.Value);            
             gr.Children.Clear();
             CreateTable();
         }
