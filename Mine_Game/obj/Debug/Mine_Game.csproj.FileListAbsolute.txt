@@ -26,3 +26,17 @@ C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Min
 C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.g.resources
 C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.Properties.Resources.resources
 C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.csproj.GenerateResource.Cache
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\bin\Debug\Mine_Game.exe.config
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.exe
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.pdb
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\bin\Debug\Mine_Game.exe
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\bin\Debug\Mine_Game.pdb
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.csprojResolveAssemblyReference.cache
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\MainWindow.g.cs
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\App.g.cs
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\Mine_Game_MarkupCompile.cache
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\Mine_Game_MarkupCompile.lref
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\MainWindow.baml
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.g.resources
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.Properties.Resources.resources
+C:\Users\Tamas\Documents\Visual Studio 2015\Repositories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.csproj.GenerateResource.Cache

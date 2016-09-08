@@ -29,11 +29,13 @@ namespace Mine_Game
         {
             InitializeComponent();
             Title = "Mine Game";
-        }
+        }        
 
         private void CreateTable()
         {
             table = new Button[sizeY + 2, sizeX + 2];
+            gr.ColumnDefinitions.Clear();
+            gr.RowDefinitions.Clear();
             for (int i = 0; i < sizeX; i++)
             {
                 gr.ColumnDefinitions.Add(new ColumnDefinition());
@@ -77,14 +79,14 @@ namespace Mine_Game
                 if (mines == 0)
                 {
                     MessageBox.Show("You Win!!!");
-                    Close();
+                    CreateTable();
                 }
             }
             else
             {
                 _temp.Content = _temp.Tag;
                 MessageBox.Show("Game Over!!!");
-                Close();
+                CreateTable();
             }
         }
 
@@ -105,7 +107,7 @@ namespace Mine_Game
             {
                 _temp.Content = _temp.Tag;
                 MessageBox.Show("Game Over!!!");
-                Close();
+                CreateTable();
             }            
         }
 
@@ -150,8 +152,7 @@ namespace Mine_Game
                     m--;
                 }
             } while (m > 0);            
-            SetNumbers();
-            //ShowMines();
+            SetNumbers();            
         }
 
         private void SetNumbers()
