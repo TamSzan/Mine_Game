@@ -28,7 +28,7 @@ namespace Mine_Game
         public MainWindow()
         {
             InitializeComponent();
-            Title = "Mine_Game";
+            Title = "Mine Game";
         }
 
         private void CreateTable()
