@@ -20,15 +20,15 @@ namespace Mine_Game
     /// </summary>
     public partial class MainWindow : Window
     {
-        int sizeX = 15;
+        int sizeX = 10;
         int sizeY = 10;
-        int mines = 20;
+        int mines = 10;
         Button[,] table;
                 
         public MainWindow()
         {
             InitializeComponent();
-            CreateTable();
+            Title = "Mine_Game";
         }
 
         private void CreateTable()
@@ -47,12 +47,14 @@ namespace Mine_Game
                 for (int j = 0; j < sizeX + 2; j++)
                 {
                     Button b = new Button();
-                    b.Tag = "q";                    
+                    b.Tag = "";
+                    b.FontSize = 20;
+                    b.FontWeight = FontWeights.Bold;               
                     table[i, j] = b;
                     if (i > 0 && j > 0 && i < sizeY + 1 && j < sizeX + 1)
                     {
                         table[i, j].Click += Button_Click;
-                        table[i, j].MouseRightButtonUp += RightButton_Down;
+                        table[i, j].MouseRightButtonDown += RightButton_Down;
                         gr.Children.Add(b);
                         Grid.SetRow(b, i - 1);
                         Grid.SetColumn(b, j - 1);
@@ -74,7 +76,7 @@ namespace Mine_Game
                 mines--;
                 if (mines == 0)
                 {
-                    MessageBox.Show("YEEEEEEEEAAAHHHH!!!");
+                    MessageBox.Show("You Win!!!");
                     Close();
                 }
             }
@@ -206,17 +208,15 @@ namespace Mine_Game
                 }
             }
             return nr;
-        }
+        }        
 
-        private void ShowMines()
+        private void bt_Start_Click(object sender, RoutedEventArgs e)
         {
-            for (int i = 1; i < sizeY + 1; i++)
-            {
-                for (int j = 1; j < sizeX + 1; j++)
-                {
-                    table[i, j].Content = table[i, j].Tag;
-                }
-            }
+            sizeX = Convert.ToInt32(sliderX.Value);
+            sizeY = Convert.ToInt32(sliderY.Value);
+            mines = Convert.ToInt32(sliderM.Value);
+            gr.Children.Clear();
+            CreateTable();
         }
     }
 }

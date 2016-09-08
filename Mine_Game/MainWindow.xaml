@@ -6,5 +6,16 @@
         xmlns:local="clr-namespace:Mine_Game"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid Name="gr"/>
+    <Grid Name="gr">
+        <Button x:Name="bt_Start" Content="Start" HorizontalAlignment="Left" Margin="217,236,0,0" VerticalAlignment="Top" Width="92" Height="34" FontWeight="Bold" FontSize="18" Click="bt_Start_Click"/>
+        <Slider x:Name="sliderX" Minimum="10" Maximum="30" IsSnapToTickEnabled="True" TickFrequency="5" HorizontalAlignment="Left" Margin="232,41,0,0" VerticalAlignment="Top" Height="20" Width="227"/>
+        <Slider x:Name="sliderY" Minimum="10" Maximum="20" IsSnapToTickEnabled="True" TickFrequency="5" HorizontalAlignment="Left" Margin="232,110,0,0" VerticalAlignment="Top" Width="227"/>
+        <Slider x:Name="sliderM" Minimum="10" Maximum="95" IsSnapToTickEnabled="True" TickFrequency="10" HorizontalAlignment="Left" Margin="232,174,0,0" VerticalAlignment="Top" Width="227"/>
+        <Label x:Name="label1" Content="Table Size Y" HorizontalAlignment="Left" Margin="43,102,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Table Size X" HorizontalAlignment="Left" Margin="43,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Mines" HorizontalAlignment="Left" Margin="43,166,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="{Binding ElementName=sliderX,Path=Value}" HorizontalAlignment="Left" Margin="142,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="{Binding ElementName=sliderY,Path=Value}" HorizontalAlignment="Left" Margin="142,102,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="{Binding ElementName=sliderM,Path=Value}" HorizontalAlignment="Left" Margin="142,166,0,0" VerticalAlignment="Top"/>
+    </Grid>
 </Window>

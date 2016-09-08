@@ -12,3 +12,17 @@ c:\users\tamas\documents\visual studio 2015\Projects\Mine_Game\Mine_Game\obj\Deb
 c:\users\tamas\documents\visual studio 2015\Projects\Mine_Game\Mine_Game\obj\Debug\Mine_Game.csproj.GenerateResource.Cache
 c:\users\tamas\documents\visual studio 2015\Projects\Mine_Game\Mine_Game\obj\Debug\Mine_Game.exe
 c:\users\tamas\documents\visual studio 2015\Projects\Mine_Game\Mine_Game\obj\Debug\Mine_Game.pdb
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\bin\Debug\Mine_Game.exe.config
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.exe
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.pdb
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\bin\Debug\Mine_Game.exe
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\bin\Debug\Mine_Game.pdb
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.csprojResolveAssemblyReference.cache
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\MainWindow.g.cs
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\App.g.cs
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game_MarkupCompile.cache
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game_MarkupCompile.lref
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\MainWindow.baml
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.g.resources
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.Properties.Resources.resources
+C:\Users\tamas.szaniszlo\Documents\Visual Studio 2015\Reposetories\Mine_Game\Mine_Game\obj\Debug\Mine_Game.csproj.GenerateResource.Cache
