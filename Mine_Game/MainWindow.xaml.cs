@@ -132,12 +132,20 @@ namespace Mine_Game
             }
             if (table[y , x + 1].Tag.ToString() == "0")
                 Recursive(table[y , x + 1]);
+            if (table[y -1, x + 1].Tag.ToString() == "0")
+                Recursive(table[y -1, x + 1]);
             if (table[y - 1, x].Tag.ToString() == "0")
                 Recursive(table[y - 1, x]);
+            if (table[y - 1, x - 1].Tag.ToString() == "0")
+                Recursive(table[y - 1, x - 1]);
             if (table[y , x - 1 ].Tag.ToString() == "0")
                 Recursive(table[y , x - 1]);
+            if (table[y + 1, x - 1].Tag.ToString() == "0")
+                Recursive(table[y + 1, x - 1]);
             if (table[y + 1, x].Tag.ToString() == "0")
                 Recursive(table[y + 1, x]);
+            if (table[y + 1, x + 1].Tag.ToString() == "0")
+                Recursive(table[y + 1, x + 1]);
         }
 
         private void SetMines()
