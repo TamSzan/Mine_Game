@@ -128,24 +128,10 @@ namespace Mine_Game
                     b.Content = b.Tag;
                     b.Click -= Button_Click;
                     b.MouseRightButtonDown -= RightButton_Down;
+                    if (b.Tag.ToString() == "0")
+                        Recursive(b);
                 }
-            }
-            if (table[y , x + 1].Tag.ToString() == "0")
-                Recursive(table[y , x + 1]);
-            if (table[y -1, x + 1].Tag.ToString() == "0")
-                Recursive(table[y -1, x + 1]);
-            if (table[y - 1, x].Tag.ToString() == "0")
-                Recursive(table[y - 1, x]);
-            if (table[y - 1, x - 1].Tag.ToString() == "0")
-                Recursive(table[y - 1, x - 1]);
-            if (table[y , x - 1 ].Tag.ToString() == "0")
-                Recursive(table[y , x - 1]);
-            if (table[y + 1, x - 1].Tag.ToString() == "0")
-                Recursive(table[y + 1, x - 1]);
-            if (table[y + 1, x].Tag.ToString() == "0")
-                Recursive(table[y + 1, x]);
-            if (table[y + 1, x + 1].Tag.ToString() == "0")
-                Recursive(table[y + 1, x + 1]);
+            }            
         }
 
         private void SetMines()
